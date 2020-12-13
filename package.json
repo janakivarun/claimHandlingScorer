@@ -1,0 +1,24 @@
+{
+  "name": "claim-handling-scorer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "reactUI": "cd reactUI && npm start",
+    "api": "cd api && npm start",
+    "start": "concurrently - kill-others \"npm run api\" \"npm run reactUI\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DocumentClassification/Text-Classification.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DocumentClassification/Text-Classification/issues"
+  },
+  "homepage": "https://github.com/DocumentClassification/Text-Classification#readme",
+  "dependencies": {
+    "concurrently": "^5.3.0"
+  }
+}
